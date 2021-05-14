@@ -207,9 +207,9 @@ body {
 
 .team-list {
   display: flex;
-  word-wrap: break-word;
   margin-left: -30px;
   margin-top: -30px;
+  flex-wrap: wrap;
 }
 
 .team-list-item {
@@ -275,6 +275,16 @@ body {
 /*------------PORTFOLIO SECTION--------*/
 
 /*Button section*/
+
+.menu-button-list {
+  display: flex;
+}
+
+.list-web-design {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .menu-button {
   font-weight: 500;
   font-size: 16px;
