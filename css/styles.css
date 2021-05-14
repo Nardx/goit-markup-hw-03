@@ -144,7 +144,7 @@ body {
 
 .hero-section-button {
   width: 200px;
-  height: 40px;
+  height: 50px;
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
@@ -153,6 +153,7 @@ body {
   cursor: pointer;
   background-color: var(--accent-color2);
   color: var(--accent-color4);
+  border: none;
 }
 
 .hero-section-button:hover,
@@ -217,6 +218,7 @@ body {
 }
 
 .team-list-item {
+  flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -298,11 +300,13 @@ body {
 }
 
 .list-web-design-item {
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
 
 .menu-button {
+  height: 38px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -313,7 +317,13 @@ body {
   cursor: pointer;
   border-radius: 4px;
   border: none;
-  background-color: #f5faf4;
+  background-color: #f5f4fa;
+  padding: 0 20px 0 20px;
+}
+
+.button-rgb {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .menu-button:hover,
@@ -329,6 +339,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--accent-color);
+  margin-top: 20px;
 }
 
 .link-subtitle-pf {
