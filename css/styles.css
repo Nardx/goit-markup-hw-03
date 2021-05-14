@@ -47,6 +47,13 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*----------------MASTERS-------------*/
+
 /* Header Section */
 
 .header {
@@ -119,8 +126,6 @@ body {
 
 .hero-section {
   background-color: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-section-title {
@@ -156,14 +161,8 @@ body {
 
 /* Info section */
 
-.info-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .info-setcion-list {
   display: flex;
-  margin-right: 55px;
 }
 
 .info-setion-title {
@@ -172,6 +171,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  margin-bottom: 10px;
 }
 
 .info-section-subtitle {
@@ -179,6 +179,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color3);
+  margin-right: 30px;
 }
 
 /* Info section end */
@@ -191,6 +192,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-bottom: 50px;
 }
 
 .about-section-list {
@@ -203,6 +205,18 @@ body {
 
 /*Team section */
 
+.team-list {
+  display: flex;
+  word-wrap: break-word;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.team-list-item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 .team-section-title {
   font-weight: 500;
   font-size: 16px;
@@ -210,6 +224,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-section-subtitle {
@@ -219,6 +235,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 /*Team section end*/
 
 /*Footer section */
