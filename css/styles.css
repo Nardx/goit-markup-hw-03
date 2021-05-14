@@ -53,10 +53,7 @@ body {
 }
 
 /*----------------MASTERS-------------*/
-.tes {
-  display: flex;
-  justify-content: center;
-}
+
 /* Header Section */
 
 .header {
@@ -160,6 +157,11 @@ body {
 .hero-section-button:focus {
   background-color: #188ce8;
   color: var(--accent-color4);
+}
+
+.flex-hero-button {
+  display: flex;
+  justify-content: center;
 }
 
 /* Hero section end*/
