@@ -128,8 +128,9 @@ body {
 
 .hero-section {
   display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
-  height: 600px;
   align-items: center;
 }
 
