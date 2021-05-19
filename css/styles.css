@@ -6,7 +6,7 @@
   --hover-color: #2196f3;
   --title-color: #212121;
   --subtitle-color: #757575;
-  --hero-button-color: #2196f3;
+  --hero-button-color: #188ce8;
 }
 
 h1,
@@ -171,7 +171,7 @@ body {
 
 .hero-section-button:hover,
 .hero-section-button:focus {
-  background-color: var(--hover-color);
+  background-color: #188ce8;
   color: var(--accent-color4);
 }
 
