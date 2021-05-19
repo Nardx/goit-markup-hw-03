@@ -203,6 +203,10 @@ body {
 
 /* About section */
 
+.about-section {
+  padding-bottom: 94px;
+}
+
 .heading2-title {
   font-size: 36px;
   line-height: 1.16;
@@ -223,13 +227,7 @@ body {
 /*Team section */
 
 .team-section {
-  padding-top: 94px;
-}
-
-.team-section-background {
   background: #f5f4fa;
-  height: 648px;
-  padding-top: 94px;
 }
 
 .team-list {
