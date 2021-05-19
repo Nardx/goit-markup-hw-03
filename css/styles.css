@@ -197,6 +197,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
+  max-width: 270px;
 }
 
 .info-list-item:not(:last-child) {
@@ -374,6 +375,9 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   max-width: 370px;
+}
+
+.list-web-design-div {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
