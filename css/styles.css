@@ -330,8 +330,8 @@ body {
 
 .menu-button-list {
   display: flex;
-  margin-bottom: 34px;
   justify-content: center;
+  margin-bottom: 34px;
 }
 
 .menu-button {
@@ -353,16 +353,17 @@ body {
 .list-web-design {
   display: flex;
   flex-wrap: wrap;
-
   margin-top: -30px;
+  margin-left: -30px;
 }
 
 .list-web-design-item {
   flex-basis: calc((100% - 90px) / 3);
-
   margin-top: 30px;
+  margin-left: 30px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-rgb {
