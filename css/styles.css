@@ -57,8 +57,8 @@ body {
 /* Header Section */
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -222,11 +222,13 @@ body {
 /*Team section */
 
 .team-section {
+  padding-top: 94px;
 }
 
 .team-section-background {
   background: #f5f4fa;
   height: 648px;
+  padding-top: 94px;
 }
 
 .team-list {
@@ -243,6 +245,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
 .team-section-title {
@@ -262,6 +265,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 30px;
 }
 
 /*Team section end*/
@@ -270,19 +274,40 @@ body {
 
 .footer-section {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.address-footer {
+.address-footer-item {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.address-google-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-footer-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.address-footer:hover,
-.address-footer:focus {
+.address-footer-link:hover,
+.address-footer-link:focus {
+  color: var(--accent-color2);
+}
+
+.address-google-link:hover,
+.address-google-link:focus {
   color: var(--accent-color2);
 }
 
@@ -310,19 +335,6 @@ body {
   justify-content: center;
 }
 
-.list-web-design {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.list-web-design-item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
 .menu-button {
   height: 38px;
   font-weight: 500;
@@ -337,6 +349,21 @@ body {
   border: none;
   background-color: #f5f4fa;
   padding: 0 20px 0 20px;
+}
+
+.list-web-design {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: -30px;
+}
+
+.list-web-design-item {
+  flex-basis: calc((100% - 90px) / 3);
+
+  margin-top: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .button-rgb {
