@@ -127,7 +127,15 @@ body {
 /* Hero section */
 
 .hero-section {
+  display: flex;
   background-color: #2f303a;
+  height: 600px;
+  align-items: center;
+}
+
+.flex-hero-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-section-title {
@@ -138,7 +146,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color4);
-  margin-top: 200px;
   margin-bottom: 30px;
 }
 
@@ -154,18 +161,13 @@ body {
   background-color: var(--accent-color2);
   color: var(--accent-color4);
   border: none;
-  margin-bottom: 200px;
+  align-self: center;
 }
 
 .hero-section-button:hover,
 .hero-section-button:focus {
   background-color: #188ce8;
   color: var(--accent-color4);
-}
-
-.flex-hero-button {
-  display: flex;
-  justify-content: center;
 }
 
 /* Hero section end*/
@@ -190,6 +192,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color3);
+}
+
+.info-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -216,6 +221,14 @@ body {
 
 /*Team section */
 
+.team-section {
+}
+
+.team-section-background {
+  background: #f5f4fa;
+  height: 648px;
+}
+
 .team-list {
   display: flex;
   margin-left: -30px;
@@ -227,6 +240,9 @@ body {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-section-title {
